@@ -1,15 +1,15 @@
-.promo > .media > img {
+.promo > .media > img, .promo-media-img {
   max-width: 100%;
 }
 
-.promo > .body {
+.promo > .body, .promo-body {
   padding: 0.5em 1em;
 
   background-color: $promo-bg-color;
   color: $promo-font-color;
 }
 
-.promo > .body > .cta {
+.promo > .body > .cta, .promo-body-cta {
   display: block;
 
   color: $promo-font-color;
@@ -21,6 +21,7 @@
   font-weight: bold;
 }
 
-.twitter {
+.promo-body-cta-twitter {
   background-image: url('../images/twitter-owl.png');
+  background-position-y: -6px;
 }

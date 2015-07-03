@@ -8047,19 +8047,19 @@ h2 {
 }
 
 /* line 1, ../../src/stylesheets/components/_promo-panes.scss */
-.promo > .media > img {
+.promo > .media > img, .promo-media-img {
   max-width: 100%;
 }
 
 /* line 5, ../../src/stylesheets/components/_promo-panes.scss */
-.promo > .body {
+.promo > .body, .promo-body {
   padding: 0.5em 1em;
   background-color: #EE5A04;
   color: #FFF;
 }
 
 /* line 12, ../../src/stylesheets/components/_promo-panes.scss */
-.promo > .body > .cta {
+.promo > .body > .cta, .promo-body-cta {
   display: block;
   color: #FFF;
   background-image: url("../images/arrow.png");
@@ -8071,6 +8071,7 @@ h2 {
 }
 
 /* line 24, ../../src/stylesheets/components/_promo-panes.scss */
-.twitter {
+.promo-body-cta-twitter {
   background-image: url("../images/twitter-owl.png");
+  background-position-y: -6px;
 }
