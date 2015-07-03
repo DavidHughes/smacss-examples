@@ -1,15 +1,12 @@
-.promo {
-  width: 25%;
-  background-color: $promo-bg-color;
-  color: $promo-font-color;
-}
-
 .promo > .media > img {
   max-width: 100%;
 }
 
 .promo > .body {
   padding: 0.5em 1em;
+
+  background-color: $promo-bg-color;
+  color: $promo-font-color;
 }
 
 .promo > .body > .cta {
@@ -22,4 +19,8 @@
   text-transform: uppercase;
   text-decoration: underline;
   font-weight: bold;
+}
+
+.twitter {
+  background-image: url('../images/twitter-owl.png');
 }
