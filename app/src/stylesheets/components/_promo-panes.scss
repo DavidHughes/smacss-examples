@@ -1,0 +1,25 @@
+.promo {
+  width: 25%;
+  background-color: $promo-bg-color;
+  color: $promo-font-color;
+}
+
+.promo > .media > img {
+  max-width: 100%;
+}
+
+.promo > .body {
+  padding: 0.5em 1em;
+}
+
+.promo > .body > .cta {
+  display: block;
+
+  color: $promo-font-color;
+  background-image: url('../images/arrow.png');
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-weight: bold;
+}
